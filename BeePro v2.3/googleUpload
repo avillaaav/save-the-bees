@@ -1,0 +1,2 @@
+rclone copy --max-age 10s --no-traverse /home/pi/Desktop/BeePro google-drive:recordings -P
+ls -t | head -n1 | xargs -d '\n' rm -f --
